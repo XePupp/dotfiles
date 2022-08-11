@@ -11,11 +11,11 @@ mkdir ~/.config/sxhkd
 mkdir ~/.config/polybar
 mkdir ~/.config/rofi
 
-mv ~/dotfiles/bash/ ~/
-mv ~/dotfiles/bspwm/ ~/.config/bspwm/
-mv ~/dotfiles/sxhkd/ ~/.config/sxhkd/
-mv ~/dotfiles/polybar/ ~/.config/polybar/
-mv ~/dotfiles/rofi/ ~/.config/rofi/
+mv ~/dotfiles/bash/.bashrc ~/
+mv ~/dotfiles/bspwm/bspwmrc ~/.config/bspwm/
+mv ~/dotfiles/sxhkd/sxhkdrc ~/.config/sxhkd/
+mv ~/dotfiles/polybar/config.ini ~/.config/polybar/
+mv ~/dotfiles/rofi/powermenu.sh ~/.config/rofi/
 
 chmod +s ~/.config/bspwm/bspwmrc
 chmod +s ~/.config/sxhkd/sxhkdrc
