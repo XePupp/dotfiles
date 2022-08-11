@@ -1,5 +1,5 @@
 # Fetching Packages
-sudo pacman -S bspwm sxhkd polybar xorg xorg-xinit alacritty neovim neofetch git flatpak rofi flameshot
+sudo pacman -S bspwm sxhkd polybar xorg xorg-xinit alacritty neovim neofetch git flatpak rofi flameshot -y
 flatpak install org.mozilla.firefox -y
 flatpak install org.gimp.GIMP -y 
 flatpak install com.github.tchx84.Flatseal -y
