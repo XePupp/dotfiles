@@ -5,12 +5,17 @@ flatpak install org.gimp.GIMP -y
 flatpak install com.github.tchx84.Flatseal -y
 flatpak install io.mpv.Mpv -y
 
-
-
-git clone https://github.com/xepupp/dotfiles
 mkdir ~/.config/
 mkdir ~/.config/bspwm
 mkdir ~/.config/sxhkd
 mkdir ~/.config/polybar
 mkdir ~/.config/rofi
-mkdir ~/.config/
+
+mv bash/ ~/
+mv bspwm/ ~/.config/bspwm/
+mv sxhkd/ ~/.config/sxhkd/
+mv polybar/ ~/.config/polybar/
+mv rofi/ ~/.config/rofi/
+
+chmod +s ~/.config/bspwm/bspwmrc
+chmod +s ~/.config/sxhkd/sxhkdrc
